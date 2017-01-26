@@ -1,0 +1,23 @@
+
+[
+    {"Submitted":"2014-06-28 19:39:27 -04:00","name":"AAA","score":"1514","Submitted Login":"msimpson","Submitted From":"216.40.80.53"},
+    {"Submitted":"2014-06-28 19:39:19 -04:00","name":"BBB","score":"500","Submitted Login":"msimpson","Submitted From":"216.40.80.53"},
+    {"Submitted":"2014-06-28 19:39:09 -04:00","name":"CCC","score":"-1","Submitted Login":"msimpson","Submitted From":"216.40.80.53"},
+    {"Submitted":"2014-06-28 19:39:01 -04:00","name":"AAA","score":"200","Submitted Login":"msimpson","Submitted From":"216.40.80.53"},
+    {"Submitted":"2014-06-25 16:48:46 -04:00","name":"BBB","score":"12","Submitted Login":"msimpson","Submitted From":"166.147.120.168"},
+    {"Submitted":"2014-05-28 14:50:38 -04:00","name":"CCC","score":"20000","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:50:30 -04:00","name":"AAA","score":"30","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:50:22 -04:00","name":"BBB","score":"9","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:50:16 -04:00","name":"CCC","score":"20","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:50:09 -04:00","name":"AAA","score":"20","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:49:52 -04:00","name":"BBB","score":"1500","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:49:45 -04:00","name":"CCC","score":"0","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:49:34 -04:00","name":"DDD","score":"900","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:50:10 -04:00","name":"AAA","score":"","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:49:53 -04:00","name":"BBB","score":"","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:49:46 -04:00","name":"CCC","score":"","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:50:11 -04:00","name":"AAA","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:49:54 -04:00","name":"BBB","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:49:47 -04:00","name":"CCC","Submitted Login":"msimpson","Submitted From":"166.205.55.44"},
+    {"Submitted":"2014-05-28 14:50:34 -04:00","name":"DDD","score":"BOGUS","Submitted Login":"msimpson","Submitted From":"166.205.55.44"}
+]

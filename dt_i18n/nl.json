@@ -1,0 +1,17 @@
+{
+	"sProcessing":   "Bezig met verwerken...",
+	"sLengthMenu":   "Toon _MENU_ rijen",
+	"sZeroRecords":  "Geen resultaten gevonden",
+	"sInfo":         "_START_ tot _END_ van _TOTAL_ rijen",
+	"sInfoEmpty":    "Er zijn geen records om te tonen",
+	"sInfoFiltered": "(gefilterd uit _MAX_ rijen)",
+	"sInfoPostFix":  "",
+	"sSearch":       "Zoek:",
+	"sUrl":          "",
+	"oPaginate": {
+		"sFirst":    "Eerste",
+		"sPrevious": "Vorige",
+		"sNext":     "Volgende",
+		"sLast":     "Laatste"
+	}
+}

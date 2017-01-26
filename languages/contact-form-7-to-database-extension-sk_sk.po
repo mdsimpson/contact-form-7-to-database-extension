@@ -1,0 +1,1283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 - database\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/contact-form-7-to-database-"
+"extension\n"
+"POT-Creation-Date: 2015-04-06 18:57+0100\n"
+"PO-Revision-Date: 2015-04-06 21:25+0100\n"
+"Last-Translator: Jan Fajcak <ja@fajo.name>\n"
+"Language-Team: Ján Fajčák <ja@fajo.name>\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBOptionsManager.php:281 ../CF7DBPlugin.php:477
+#: ../ExportToGoogleLiveData.php:31
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemáte dostatočné oprávnenia pre prístup na túto stránku."
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBOptionsManager.php:299
+msgid "System Settings"
+msgstr "Systémové nastavenia"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBOptionsManager.php:301
+msgid "System"
+msgstr "Systém"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBOptionsManager.php:302
+msgid "PHP Version"
+msgstr "Verzia PHP"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBOptionsManager.php:307
+msgid ""
+"(WARNING: This plugin may not work properly with versions earlier than PHP "
+"5.2)"
+msgstr ""
+"(VAROVANIE: Tento modul nemusí pracovať správne, ak používate staršiu verziu "
+"PHP než je 5.2)"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBOptionsManager.php:313
+msgid "MySQL Version"
+msgstr "Verzia MySQL"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBOptionsManager.php:318
+msgid ""
+"(WARNING: This plugin may not work properly with versions earlier than MySQL "
+"5.0)"
+msgstr ""
+"(VAROVANIE: Tento modul nemusí pracovať správne, ak používate staršiu verziu "
+"MySQL než je 5.0)"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBOptionsManager.php:327
+msgid "Settings"
+msgstr "Nastavenia"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBOptionsManager.php:352
+msgid "Save Changes"
+msgstr "Uložiť zmeny"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBOptionsManager.php:411 ../CF7DBPlugin.php:97
+#: ../CFDBViewShortCodeBuilder.php:1211 ../CFDBViewShortCodeBuilder.php:1450
+#: ../CFDBViewShortCodeBuilder.php:1459 ../CFDBViewShortCodeBuilder.php:1505
+msgid "true"
+msgstr "áno"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBOptionsManager.php:412 ../CF7DBPlugin.php:99
+#: ../CFDBViewShortCodeBuilder.php:1212 ../CFDBViewShortCodeBuilder.php:1449
+#: ../CFDBViewShortCodeBuilder.php:1458 ../CFDBViewShortCodeBuilder.php:1506
+msgid "false"
+msgstr "nie"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:54
+msgid "Capture form submissions from Contact Form 7 Plugin"
+msgstr "Zachytávať výstupy z formulárov modulu pluginu Contact Form 7"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:55
+msgid "Capture form submissions from Fast Secure Contact Form Plugin"
+msgstr "Zachytávať výstupy z formulárov modulu Fast Secure Contact Form"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:56
+msgid "Capture form submissions from JetPack Contact Form"
+msgstr "Zachytávať výstupy z formulárov modulu Fast Secure Contact Form"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:57
+msgid "Capture form submissions from Gravity Forms"
+msgstr "Zachytávať výstupy z formulárov modulu Gravity Forms"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:58
+msgid "Capture form submissions from WR ContactForm"
+msgstr "Zachytávať výstupy z formulárov modulu WR ContactForm"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:59
+msgid "Capture form submissions from Quform"
+msgstr "Zachytávať výstupy z formulárov modulu Quform"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:60
+msgid "Capture form submissions from Ninja Forms"
+msgstr "Zachytávať výstupy z formulárov modulu Ninja Forms"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:61
+msgid "Capture form submissions from Enfold Theme"
+msgstr "Zachytávať výstupy z formulárov modulu Enfold Theme"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:62
+msgid "Can See Submission data"
+msgstr "Môže vidieť uložené dáta"
+
+#: ../CF7DBPlugin.php:64
+msgid "Allow only Administrators to see CFDB administration screens"
+msgstr "Povoliť zobrazenie CFDB v administrácii len len pre rolu Administrátor"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:65
+msgid "Can See Submission when using shortcodes"
+msgstr "Môže vidieť uložené dáta s použitím skrátených kódov"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:67
+msgid "Can Edit/Delete Submission data"
+msgstr "Môže upravovať/zmazať zachytené údaje"
+
+#: ../CF7DBPlugin.php:69
+msgid "Generate [submit_time] tag for Contact Form 7 email"
+msgstr "Generovať [submit_time] pre email Contact Form 7"
+
+#: ../CF7DBPlugin.php:70
+msgid "Allow Any Function in Short Codes"
+msgstr "Povoliť všetky funkcie v skrátených kódoch"
+
+#: ../CF7DBPlugin.php:71 ../CF7DBPlugin.php:73
+msgid "(Creates a security hole)"
+msgstr "(vytvára bezpečnostnú dieru)"
+
+#: ../CF7DBPlugin.php:72
+msgid "Allow RSS URLs"
+msgstr "Povoliť RSS URL adresy"
+
+#: ../CF7DBPlugin.php:74
+msgid ""
+"Timezone to capture Submit Time. Blank will use WordPress Timezone setting. "
+"<a target=\"_blank\" href=\"http://www.php.net/manual/en/timezones.php"
+"\">Options</a>"
+msgstr ""
+"Časová zóna pre zachytenie času odoslania. Nechajte prázdne pre použitie "
+"nastavenia WordPress. <a target=\"_blank\" href=\"http://www.php.net/manual/"
+"en/timezones.php\">Možnosti</a>"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:75
+msgid "Maximum number of rows to retrieve from the DB for the Admin display"
+msgstr "Maximálny počet riadkov zobrazených na stránke administrácie"
+
+#: ../CF7DBPlugin.php:76
+msgid "#Rows (of maximum above) visible in the Admin datatable"
+msgstr ""
+"#Riadky (z maximálneho počtu, nastaveného vyššie) viditeľné v administrácii"
+
+#: ../CF7DBPlugin.php:77
+msgid "Use fixed width in Admin datatable"
+msgstr "Použiť pevnú šírku tabuľky v administrácii"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:78
+msgid "Use Javascript-enabled tables in Admin Database page"
+msgstr "Použiť Javascript pre zapnutie tabuliek v administrácii"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:79
+msgid "Show line breaks in submitted data table"
+msgstr "Zobraziť zalomenie riadkov v dátovej tabuľke"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:80
+msgid "Use Custom Date-Time Display Format (below)"
+msgstr "Použiť uživatelské zobrazenie dátumu a času (nižšie)"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:81
+msgid "Date-Time Display Format"
+msgstr "Formát zobrazenia dátumu a času"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:82
+msgid "Export URLs instead of file names for uploaded files"
+msgstr "Exportovať URL adresu namiesto mena nahratých súborov"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:83
+msgid "Do not save <u>fields</u> in DB named (comma-separated list, no spaces)"
+msgstr ""
+"Neukladať <u>polia</u> do databázy (čiarkou oddelený zoznam, bez medzier)"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:84
+msgid "Do not save <u>forms</u> in DB named (comma-separated list, no spaces)"
+msgstr ""
+"Neukladať <u>formuláre</u> do databázy (čiarkou oddelený zoznam, bez medzier)"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:85
+msgid "Save Cookie Data with Form Submissions"
+msgstr "Uložiť dáta cookie"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:86
+msgid ""
+"Save only cookies in DB named (comma-separated list, no spaces, and above "
+"option must be set to true)"
+msgstr ""
+"Uložiť do databázy iba cookies (čiarkou oddelený zoznam bez medzier, musí "
+"byť povolená predchádzajúca voľba)"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:87
+msgid "Show the query used to display results"
+msgstr "Zobraziť dotaz použitý k zobrazeniu výsledkov"
+
+#: ../CF7DBPlugin.php:88
+msgid "Error output file (full path) or email address"
+msgstr "Chyba výstupného súboru (plnej cesty) alebo emailovej adresy"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:89
+msgid "Drop this plugin's Database table on uninstall"
+msgstr "Zmazať tabuľku modulu z databázy a odinštalovať"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:102 ../CFDBViewShortCodeBuilder.php:1198
+msgid "Administrator"
+msgstr "Administrátor"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:104 ../CFDBViewShortCodeBuilder.php:1199
+msgid "Editor"
+msgstr "Redaktor"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:106 ../CFDBViewShortCodeBuilder.php:1200
+msgid "Author"
+msgstr "Autor"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:108 ../CFDBViewShortCodeBuilder.php:1201
+msgid "Contributor"
+msgstr "Prispievateľ"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:110 ../CFDBViewShortCodeBuilder.php:1202
+msgid "Subscriber"
+msgstr "Odberateľ"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:112 ../CFDBViewShortCodeBuilder.php:1203
+msgid "Anyone"
+msgstr "ktokoľvek"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:483
+msgid "Missing form parameters"
+msgstr "Chýbajúce parametre formulára"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:487
+msgid "No such file."
+msgstr "Žiadny soubor"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:544
+msgid "Invalid: "
+msgstr "Neplatný:"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:547
+msgid "Valid: "
+msgstr "Platný:"
+
+#: ../CF7DBPlugin.php:822
+msgid "Contact Form DB"
+msgstr "Contact Form DB"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:871 ../CFDBViewShortCodeBuilder.php:1159
+msgid "Short Code"
+msgstr "Skrátený kód"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:879 ../CFDBViewImportCsv.php:71
+msgid "Import"
+msgstr "Import"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:887
+msgid "Options"
+msgstr "Nastavenia"
+
+# @ contact-form-7-to-database-extension
+#: ../CF7DBPlugin.php:948 ../ExportToHtmlTable.php:222
+msgid "Delete"
+msgstr "Zmazať"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBCheckZendFramework.php:72
+msgid "Missing Zend Framework"
+msgstr "Chýbajúci Zend Framework"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBIntegrationFSCF.php:52
+msgid "Database"
+msgstr "Databáza"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBIntegrationFSCF.php:54
+msgid "Database Options"
+msgstr "Voľby databázy"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBIntegrationFSCF.php:56
+msgid "Build Short Code"
+msgstr "Vytvoriť skrátený kód"
+
+#: ../CFDBIntegrationFSCF.php:58
+msgid "Reference"
+msgstr "Doporučenia"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBShortcodeExportUrl.php:57 ../CFDBViewImportCsv.php:114
+#: ../CFDBViewWhatsInDB.php:233
+msgid "Export"
+msgstr "Exportovať"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBView.php:69
+msgid "Rate this Plugin"
+msgstr "Ohodnoťte tento modul"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBView.php:75 ../CFDBViewShortCodeBuilder.php:130
+#: ../CFDBViewShortCodeBuilder.php:1172
+msgid "Documentation"
+msgstr "Dokumentácia"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBView.php:81
+msgid "Support"
+msgstr "Podpora"
+
+#: ../CFDBViewImportCsv.php:44
+msgid "Import CSV File into Form"
+msgstr "Import CSV súboru do formulára"
+
+#: ../CFDBViewImportCsv.php:49
+msgid "File"
+msgstr "Súbor"
+
+#: ../CFDBViewImportCsv.php:53
+msgid "New Form"
+msgstr "Nový formulár"
+
+#: ../CFDBViewImportCsv.php:57
+msgid "Existing Form"
+msgstr "Existujúci formulár"
+
+#: ../CFDBViewImportCsv.php:84
+msgid "Rename Form"
+msgstr "Premenovať formulár"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewImportCsv.php:94
+msgid "Rename"
+msgstr "Premenovať"
+
+#: ../CFDBViewImportCsv.php:97
+msgid "Backup Form to CSV File"
+msgstr "Záloha formulára do CSV súboru"
+
+#: ../CFDBViewImportCsv.php:99
+msgid ""
+"Backup a form into a CSV file that can be re-imported without loss of data."
+msgstr ""
+"Záloha formulára do CSV súboru, ktorý môže byť znovu naimportovaný bez "
+"straty dát."
+
+#: ../CFDBViewImportCsv.php:100
+msgid "Limitation: this will not export file uploads."
+msgstr "Obmedzenie: this will not export file uploads."
+
+#: ../CFDBViewImportCsv.php:101
+msgid ""
+"Limitation: extremely large numbers of records in your form may cause the "
+"export operation on your server to run out of memory, thereby not giving you "
+"all the rows."
+msgstr ""
+"Obmedzenie: príliš veľa záznamov vo vašom formulári môže spôsobiť, že čas "
+"operácie exportu prekročí limit pamäte na vašom serveri, "
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:258 ../CFDBViewShortCodeBuilder.php:271
+msgid "Error: \""
+msgstr "Chyba: \""
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:260 ../CFDBViewShortCodeBuilder.php:273
+msgid "\" should not contain double-quotes (\")"
+msgstr "\" nemôže obsahovať dvojité uvodzovky (\")"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:334
+msgid "Error: no form is chosen"
+msgstr "Chyba: nie je vybratý formulár"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:381
+msgid ""
+"Warning: \"search\" field ignored because FIELD is used (use one but not "
+"both)"
+msgstr ""
+"Varovanie: pole \"hľadať\" je ignorované, pretože je zapnutý \"filter\" (nie "
+"je možné použiť súčasne)"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:402
+msgid ""
+"Error: \"FIELD\": if you provide a value for \"Start Row\" then you must "
+"also provide a value for \"Num Rows\""
+msgstr ""
+"Chyba: \"FIELD\": ak zadáte hodnotu pre \"Prvý riadok\", musíte takisto "
+"zadať hodnotu \"Počet riadkov\""
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:407
+msgid "Error: \"FIELD\": \"Num Rows\" must be a positive integer"
+msgstr "Chyba: \"FIELD\": \"Počet riadkov\" musí byť kladné celé číslo"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:415
+msgid "Error: \"FIELD\": \"Start Row\" must be a positive integer"
+msgstr "Chyba: \"FIELD\": \"Prvný riadok\" musí byť kladné celé číslo"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:510
+msgid "Error: [cfdb-html] has empty Template. It will not output anything. "
+msgstr "Chyba: [cfdb-html] má prázdnu šablónu. Nič sa nezobrazí"
+
+#: ../CFDBViewShortCodeBuilder.php:761
+msgid ""
+"Warning: the function includes your WP login information. Avoid sharing it."
+msgstr ""
+"Varovanie: táto funkcia obsahuje vaše WP prihlasovacie údaje. Vyhýbajte sa "
+"ich zdieľaniu."
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:768
+msgid ""
+"Error: WP User and Password are required for the Google Spreadsheet to pull "
+"data from your WordPress site."
+msgstr ""
+"Chyba: WP uživateľské meno a heslo sú vyžadované, aby mohli Google tabuľky "
+"stiahnuť dáta z vašej WordPress stránky."
+
+#: ../CFDBViewShortCodeBuilder.php:771
+msgid ""
+"Because the generated URL would be too long, you must use this alternative "
+"function and add its script to your Google Spreadsheet"
+msgstr ""
+"Pretože generovaná URL adresa môže byť príliš dlhá, musíte použiť náhradnú "
+"funkciu a pridať jej skript do vašej Google tabuľky"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1065
+msgid "Export and Short Code Builder"
+msgstr "Tvorca skrátených kódov a exportu "
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1068
+msgid "form"
+msgstr "formulár"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1070 ../CFDBViewWhatsInDB.php:114
+msgid "* Select a form *"
+msgstr "* Vyberte formulár *"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1080
+msgid "Reset"
+msgstr "Reset"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1088
+msgid "Export File"
+msgstr "Súbor exportu"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1092 ../CFDBViewShortCodeBuilder.php:1482
+#: ../CFDBViewWhatsInDB.php:208
+msgid "Excel CSV (UTF8-BOM)"
+msgstr "Excel CSV (UTF8-BOM)"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1095 ../CFDBViewShortCodeBuilder.php:1485
+#: ../CFDBViewWhatsInDB.php:211
+msgid "Excel TSV (UTF16LE-BOM)"
+msgstr "Excel TSV (UTF16LE-BOM)"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1098 ../CFDBViewShortCodeBuilder.php:1488
+#: ../CFDBViewWhatsInDB.php:214
+msgid "Plain CSV (UTF-8)"
+msgstr "Prostý CSV (UTF-8)"
+
+#: ../CFDBViewShortCodeBuilder.php:1101 ../CFDBViewShortCodeBuilder.php:1491
+#: ../CFDBViewWhatsInDB.php:217
+msgid "Excel CSV for Japanese (Shift-JIS)"
+msgstr "Excel CSV pre Japansko (Shift-JIS)"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1104 ../CFDBViewShortCodeBuilder.php:1494
+#: ../CFDBViewWhatsInDB.php:205
+msgid "Excel Internet Query"
+msgstr "Excel Internet Query"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1107 ../CFDBViewWhatsInDB.php:223
+msgid "Google Spreadsheet Live Data"
+msgstr "Tabuľka Google Live Data"
+
+#: ../CFDBViewShortCodeBuilder.php:1110
+msgid "RSS"
+msgstr "RSS"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1113 ../CFDBViewWhatsInDB.php:229
+msgid "JSON"
+msgstr "JSON"
+
+#: ../CFDBViewShortCodeBuilder.php:1117
+msgid "Item Title"
+msgstr "Názov položky"
+
+#: ../CFDBViewShortCodeBuilder.php:1123
+msgid ""
+"Provide a WP login for the Google Spreadsheet to use to connect to your WP "
+"site"
+msgstr ""
+"Poskytnite vaše WP prihlasovacie údaje Google tabuľkám pre spojenie s vašimi "
+"WP stránkami"
+
+#: ../CFDBViewShortCodeBuilder.php:1126
+msgid ""
+"Optional: provide a WP login for the link to work without being already "
+"logged in"
+msgstr ""
+"Voliteľné: poskytnite WP prihlasovacie údaje, aby nebolo potrebné "
+"prihlasovať sa opätovne"
+
+#: ../CFDBViewShortCodeBuilder.php:1129
+msgid "WP User"
+msgstr "WP uživateľ"
+
+#: ../CFDBViewShortCodeBuilder.php:1131
+msgid "WP Password"
+msgstr "WP heslo"
+
+#: ../CFDBViewShortCodeBuilder.php:1133
+msgid "Hide Credentials"
+msgstr "Skryť poverenia"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1137
+msgid "Generated Export Link:"
+msgstr "Generovaný odkaz k exportu:"
+
+#: ../CFDBViewShortCodeBuilder.php:1139
+msgid "Enter this function into a cell in your Google Spreadsheet:"
+msgstr "Vložiť túto funkciu do bunky vašej Google tabuľky:"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1142
+msgid "Generated Google Spreadsheet Function:"
+msgstr "Generovaná funkcia Google tabuľky:"
+
+#: ../CFDBViewShortCodeBuilder.php:1143 ../ExportToGoogleLiveData.php:170
+msgid ""
+"Replace <strong>&lt;password&gt;</strong> with your <em>WordPress</em> "
+"password"
+msgstr ""
+"Nahraďte <strong>&lt;heslo&gt;</strong> vašim <em>WordPress</em> heslom"
+
+#: ../CFDBViewShortCodeBuilder.php:1145
+msgid "Requires code installed in your Google Spreadsheet script editor."
+msgstr "Vyžaduje kód nainštalovaný v úpravcovi skriptu Google tabuľky."
+
+#: ../CFDBViewShortCodeBuilder.php:1146
+msgid "Get code"
+msgstr "Získať kód"
+
+#: ../CFDBViewShortCodeBuilder.php:1147
+msgid "See instructions."
+msgstr "Pozri inštrukcie."
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1162
+msgid "* Select a short code *"
+msgstr "* Vyberte zkratku *"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1178
+msgid "Generated Short Code:"
+msgstr "Generovaný skrátený kód:"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1184
+msgid "(Did you know: you can create your own short code)"
+msgstr "(Viete, že môžete vytvoriť vlastný skrátený kód?)"
+
+#: ../CFDBViewShortCodeBuilder.php:1190
+msgid "Security"
+msgstr "Zabezpečenie"
+
+#: ../CFDBViewShortCodeBuilder.php:1193
+msgid "role"
+msgstr "oprávnenia"
+
+#: ../CFDBViewShortCodeBuilder.php:1206
+msgid "permissionmsg"
+msgstr "permissionmsg"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1218
+msgid "Which fields/columns do you want to display?"
+msgstr "Ktoré polia/stĺpce chcete zobrazovať?"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1221
+msgid "show"
+msgstr "zobraziť"
+
+#: ../CFDBViewShortCodeBuilder.php:1225 ../CFDBViewShortCodeBuilder.php:1233
+#: ../CFDBViewShortCodeBuilder.php:1307 ../CFDBViewShortCodeBuilder.php:1601
+msgid "field1,field2,field3"
+msgstr "pole1,pole2,pole3"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1229
+msgid "hide"
+msgstr "skryť"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1238
+msgid "Which rows/submissions do you want to display?"
+msgstr "Ktoré riadky/výstupy chcete zobraziť?"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1241
+msgid "search"
+msgstr "search"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1244 ../CFDBViewShortCodeBuilder.php:1555
+msgid "search text"
+msgstr "search text"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1248
+msgid "filter"
+msgstr "filter"
+
+#: ../CFDBViewShortCodeBuilder.php:1267 ../CFDBViewShortCodeBuilder.php:1578
+msgid "value"
+msgstr "value"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1270 ../CFDBViewShortCodeBuilder.php:1581
+msgid "Validate submit_time"
+msgstr "Overiť submit_time"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1271 ../CFDBViewShortCodeBuilder.php:1582
+msgid "Formats"
+msgstr "Formáty"
+
+#: ../CFDBViewShortCodeBuilder.php:1274 ../CFDBViewShortCodeBuilder.php:1585
+msgid "filter expression"
+msgstr "filter expression"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1281
+msgid "limit"
+msgstr "limit"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1284 ../CFDBViewShortCodeBuilder.php:1592
+msgid "Num Rows"
+msgstr "Počet riadkov"
+
+#: ../CFDBViewShortCodeBuilder.php:1284 ../CFDBViewShortCodeBuilder.php:1285
+#: ../CFDBViewShortCodeBuilder.php:1299 ../CFDBViewShortCodeBuilder.php:1592
+#: ../CFDBViewShortCodeBuilder.php:1593
+msgid "number"
+msgstr "number"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1285 ../CFDBViewShortCodeBuilder.php:1593
+msgid "Start Row (0)"
+msgstr "Prvý riadok (0)"
+
+#: ../CFDBViewShortCodeBuilder.php:1289
+msgid "unbuffered"
+msgstr "unbuffered"
+
+#: ../CFDBViewShortCodeBuilder.php:1296
+msgid "random"
+msgstr "random"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1303
+msgid "orderby"
+msgstr "orderby"
+
+#: ../CFDBViewShortCodeBuilder.php:1306 ../CFDBViewShortCodeBuilder.php:1600
+msgid "field"
+msgstr "field"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1310 ../CFDBViewShortCodeBuilder.php:1604
+msgid "ASC"
+msgstr "ASC"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1311 ../CFDBViewShortCodeBuilder.php:1605
+msgid "DESC"
+msgstr "DESC"
+
+#: ../CFDBViewShortCodeBuilder.php:1317
+msgid "Table Headers"
+msgstr "Nadpis tabuľky"
+
+#: ../CFDBViewShortCodeBuilder.php:1321
+msgid "Include Header Row"
+msgstr "Vložiť riadok hlavičky"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1326
+msgid "headers"
+msgstr "nadpisy"
+
+#: ../CFDBViewShortCodeBuilder.php:1330
+msgid "display as"
+msgstr "zobraziť ako"
+
+#: ../CFDBViewShortCodeBuilder.php:1331
+msgid "display value"
+msgstr "display value"
+
+#: ../CFDBViewShortCodeBuilder.php:1334
+msgid "field1=Display Name 1,field2=Display Name 2"
+msgstr "pole1=Meno 1,pole2=Meno 2"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1339
+msgid "HTML Table Formatting"
+msgstr "Formátovanie HTML tabuliek"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1342
+msgid "id"
+msgstr "id"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1345
+msgid "HTML id"
+msgstr "HTML id"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1349
+msgid "class"
+msgstr "trieda"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1352
+msgid "HTML class"
+msgstr "HTML trieda"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1356
+msgid "style"
+msgstr "styl"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1359
+msgid "CSS style"
+msgstr "CSS štýl"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1364
+msgid "[cfdb-datatable] Options"
+msgstr "[cfdb-datatable] Voľby"
+
+#: ../CFDBViewShortCodeBuilder.php:1367
+msgid "edit"
+msgstr "upraviť"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1374
+msgid "dt_options"
+msgstr "dt_options"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1377
+msgid "datatable options (JSON)"
+msgstr "voľby dátovej tabuľky (JSON)"
+
+#: ../CFDBViewShortCodeBuilder.php:1382
+msgid "[cfdb-json] Options"
+msgstr "[cfdb-json] Voľby"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1385
+msgid "var"
+msgstr "var"
+
+#: ../CFDBViewShortCodeBuilder.php:1388
+msgid "JS var name"
+msgstr "JS var name"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1392
+msgid "format"
+msgstr "format"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1397
+msgid "map"
+msgstr "map"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1398
+msgid "array"
+msgstr "array"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1399
+msgid "arraynoheader"
+msgstr "arraynoheader"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1405
+msgid "[cfdb-value] Options"
+msgstr "[cfdb-value] Voľby"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1408
+msgid "function"
+msgstr "funkcia"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1413
+msgid "min"
+msgstr "min"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1414
+msgid "max"
+msgstr "max"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1415
+msgid "sum"
+msgstr "sum"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1416
+msgid "mean"
+msgstr "mean"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1417
+msgid "percent"
+msgstr "percent"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1422
+msgid "delimiter"
+msgstr "oddeľovač"
+
+#: ../CFDBViewShortCodeBuilder.php:1430
+msgid "[cfdb-html] Options"
+msgstr "[cfdb-html] Voľby"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1433
+msgid "filelinks"
+msgstr "filelnks"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1438
+msgid "url"
+msgstr "url"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1439
+msgid "name"
+msgstr "meno"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1440
+msgid "link"
+msgstr "odkaz"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1441
+msgid "img"
+msgstr "img"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1444
+msgid "stripbr"
+msgstr "stripbr"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1453
+msgid "wpautop"
+msgstr "wpautop"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1464
+msgid "Template"
+msgstr "Šablóna"
+
+#: ../CFDBViewShortCodeBuilder.php:1468
+msgid "Per-entry HTML using ${field name} variables"
+msgstr "Per-entry HTML using ${field name} variables"
+
+#: ../CFDBViewShortCodeBuilder.php:1473
+msgid "[cfdb-export-link] Options"
+msgstr "[cfdb-export-link] Voľby"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1476
+msgid "enc"
+msgstr "enc"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1500
+msgid "urlonly"
+msgstr "urlonly"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1511
+msgid "linktext"
+msgstr "linktext"
+
+#: ../CFDBViewShortCodeBuilder.php:1521
+msgid "Before"
+msgstr "Pred skráteným kódom"
+
+#: ../CFDBViewShortCodeBuilder.php:1525
+msgid "Optional HTML/Javascript before the short code output"
+msgstr "Voliteľné HTML/Javascript pred výstupom skráteného kódu"
+
+#: ../CFDBViewShortCodeBuilder.php:1529
+msgid "After"
+msgstr "Za skráteným kódom"
+
+#: ../CFDBViewShortCodeBuilder.php:1533
+msgid "Optional HTML/Javascript after the short code output"
+msgstr "Voliteľné HTML/Javascript za výstupom skráteného kódu"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1538
+msgid "Transform"
+msgstr "Prevod"
+
+#: ../CFDBViewShortCodeBuilder.php:1541
+msgid "trans"
+msgstr "trans"
+
+#: ../CFDBViewShortCodeBuilder.php:1545
+msgid "PHP function or class"
+msgstr "PHP funkcia alebo trieda"
+
+#: ../CFDBViewShortCodeBuilder.php:1548
+msgid "transform expression"
+msgstr "transform expression"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1552
+msgid "tsearch"
+msgstr "tsearch"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1559
+msgid "tfilter"
+msgstr "tfilter"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1589
+msgid "tlimit"
+msgstr "tlimit"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewShortCodeBuilder.php:1597
+msgid "torderby"
+msgstr "torderby"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:43
+msgid "No form submissions in the database"
+msgstr "V databázi nie je žiadny formulár"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:150
+msgid "Google Login for Upload"
+msgstr "Google prihlásenie pre nahrávanie"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:159
+msgid "Cannot perform operation because jQuery is not loaded in this page"
+msgstr ""
+"Nie je možné vykonať túto operáciu, pretože jQuery nie je na tejto stránke "
+"načítané"
+
+#: ../CFDBViewWhatsInDB.php:163
+msgid ""
+"You will now be navigated to the builder page where it will generate a "
+"function to place in your Google Spreadsheet"
+msgstr ""
+"Teraz budete presmerovaný na stránku úpravcu, kde získate vygenerovanú "
+"funkciu, ktorú umiestnite do vašej Google tabuľky"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:220
+msgid "Google Spreadsheet"
+msgstr "Tabuľka Google"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:226
+msgid "HTML"
+msgstr "HTML"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:236
+msgid "Advanced Export"
+msgstr "Rozšírený export"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:247
+msgid "Delete All This Form's Records"
+msgstr "Vymazať všetky záznamy tohoto formulár"
+
+#: ../CFDBViewWhatsInDB.php:248
+msgid "Are you sure you want to delete all the data for this form?"
+msgstr "Určite chcete vymazať všetky dáta z tohoto formulára?"
+
+#: ../CFDBViewWhatsInDB.php:255
+msgid "Remove _wpcf7 columns"
+msgstr "Odobrať _wpcf7 stĺpce"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:266
+msgid "Edit Data Mode"
+msgstr "Upraviť dáta"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:377
+msgid "Did you know: This plugin captures data from both these plugins:"
+msgstr "Vedeli ste, že tento modul získava dáta z týchto modulov:"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:387
+msgid ""
+"Did you know: You can add this data to your posts and pages using these "
+"shortcodes:"
+msgstr ""
+"Vedeli ste, že môžete pridať tieto dáta do vašich príspevkov a stránok "
+"pomocou nasledovných skrátených kódov:"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:401
+msgid "Would you like to help translate this plugin into your language?"
+msgstr "Chceli by ste pomôcť s prekladom tohoto modulu do vašeho jazyka?"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:403
+msgid "How to create a translation"
+msgstr "Ako vytvoriť preklad"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:414
+msgid "Query:"
+msgstr "Dotaz:"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:436
+msgid "Cancel"
+msgstr "Zrušiť"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:438
+msgid "Upload"
+msgstr "Nahrať"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:446
+msgid "Add Column"
+msgstr "Pridať stĺpec"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:447
+msgid "Delete Column"
+msgstr "Zmazať stĺpec"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:463
+msgid "next »"
+msgstr "ďalšia »"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:464
+msgid "« prev"
+msgstr "« predchádzajúca"
+
+# @ contact-form-7-to-database-extension
+#: ../CFDBViewWhatsInDB.php:481
+#, php-format
+msgid "Returned entries %s to %s of %s entries in the database"
+msgstr "Vrátené záznamy od %s  do %s z celkovo %s záznamov v databáze"
+
+#: ../CFDBViewWhatsInDB.php:612 ../ExportToHtmlTable.php:137
+msgid "All"
+msgstr "Všetky"
+
+# @ contact-form-7-to-database-extension
+#: ../ExportBase.php:339
+msgid "You do not have sufficient permissions to access this data."
+msgstr "Nemáte dostatečné oprávnenia pre prístup k týmto dátam."
+
+# @ contact-form-7-to-database-extension
+#: ../ExportToGoogleLiveData.php:74
+msgid ""
+"Setting up a Google Spreadsheet to pull in data from WordPress requires "
+"these manual steps:"
+msgstr ""
+"Nastavenia tabuľky Google pre získanie dát z WordPress vyžaduje nasledovné "
+"kroky:"
+
+#: ../ExportToGoogleLiveData.php:89
+msgid "Log into Google Docs and create a new Google Spreadsheet"
+msgstr "Prihláste sa do Google dokumentov a vytvorte novú tabuľku"
+
+#: ../ExportToGoogleLiveData.php:103
+msgid "Go to <strong>Tools</strong> menu -> <strong>Script Editor..."
+msgstr "Choďte do <strong>Nástroje</strong> menu -> <strong>Script Editor..."
+
+#: ../ExportToGoogleLiveData.php:117
+msgid "Choose <strong>Spreadsheet</strong>"
+msgstr "Zvoliť <strong>Tabuľku</strong>."
+
+#: ../ExportToGoogleLiveData.php:132
+msgid "Delete any text that is already there"
+msgstr "Zmazať akýkoľvek text, ktorý už existuje"
+
+#: ../ExportToGoogleLiveData.php:133
+msgid "<strong>Copy</strong> the text from "
+msgstr "<strong>Skopírujte</strong> tento text z"
+
+#: ../ExportToGoogleLiveData.php:134
+msgid "THIS SCRIPT FILE"
+msgstr "TOHOTO SÚBORU"
+
+#: ../ExportToGoogleLiveData.php:135
+msgid "and <strong>paste</strong> it into the Google script editor"
+msgstr "a <strong>vložte</strong> ho do Google úpravcu skriptov"
+
+#: ../ExportToGoogleLiveData.php:151
+msgid "<strong>Save</strong> the script"
+msgstr "Uložiť<strong>skript</strong>."
+
+#: ../ExportToGoogleLiveData.php:167
+msgid "Click on a cell A1 in the Spreadsheet (or any cell)"
+msgstr "Kliknite na bunku A1 v tabuľke (alebo na ktorúkoľvek)"
+
+#: ../ExportToGoogleLiveData.php:168
+msgid "Enter in the cell the formula:"
+msgstr "Vložiť do bunky formulu:"
+
+#: ../ExportToGoogleLiveData.php:176
+msgid ""
+"Customize the output by creating a Google Spreadsheet Function call with "
+"additional options"
+msgstr "Upravte výstup vytvorením funkcie Google tabuľky s rozšírenými voľbami"
+
+# @ contact-form-7-to-database-extension
+#: ../ExportToGoogleLiveData.php:189
+msgid "How to Set up Google Spreadsheet to pull data from WordPress"
+msgstr "Ako nastaviť tabulľy Google pre získanie dát z WordPress"
+
+# @ contact-form-7-to-database-extension
+#: ../ExportToGoogleSS.php:62
+msgid "Login Failed"
+msgstr "Prihlásenie zlyhalo"
+
+# @ contact-form-7-to-database-extension
+#: ../ExportToGoogleSS.php:101
+msgid "New Google Spreadsheet"
+msgstr "Nová Google tabuľka"
+
+# @ contact-form-7-to-database-extension
+#: ../ExportToGoogleSS.php:110
+msgid "Error"
+msgstr "Chyba"
+
+# @ contact-form-7-to-database-extension
+#: ../contact-form-7-db.php:21
+msgid ""
+"Error: plugin \"Contact Form to DB Extension\" requires a newer version of "
+"PHP to be running."
+msgstr ""
+"Chyba: modul \"Contact Form to DB Extension\" vyžaduje pre svoj beh novšiu "
+"verziu PHP."
+
+# @ contact-form-7-to-database-extension
+#: ../contact-form-7-db.php:22
+msgid "Minimal version of PHP required: "
+msgstr "Minimálna požadovaná verzia PHP:"
+
+# @ contact-form-7-to-database-extension
+#: ../contact-form-7-db.php:23
+msgid "Your server's PHP version: "
+msgstr "Verzia PHP vašeho serveru:"
+
+# @ contact-form-7-to-database-extension
+#~ msgid "FAQ"
+#~ msgstr "FAQ"
+
+# @ contact-form-7-to-database-extension
+#~ msgid "Error: No \"form\" parameter submitted"
+#~ msgstr "Chyba: Žádný parametr \"form\""
+
+# @ contact-form-7-to-database-extension
+#~ msgid "I have donated to this plugin"
+#~ msgstr "přispěl jsem na tento plugin"
+
+# @ contact-form-7-to-database-extension
+#~ msgid "Database Short Code"
+#~ msgstr "Zkratky databáze"
+
+# @ contact-form-7-to-database-extension
+#~ msgid "(Test Short Code Results)"
+#~ msgstr "(Test výsledků zkratek)"
+
+# @ contact-form-7-to-database-extension
+#~ msgid "VALUE Options"
+#~ msgstr "Volby VALUE"
