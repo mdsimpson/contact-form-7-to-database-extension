@@ -16,7 +16,7 @@
     "issues": "https://github.com/mdsimpson/contact-form-7-to-database-extension/issues"
   },
   "require": {
-    "php": ">5.0"
+    "php": ">5.3"
   },
   "suggest": {
     "composer/installers": "~1.0"
