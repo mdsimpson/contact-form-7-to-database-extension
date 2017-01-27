@@ -1,0 +1,27 @@
+{
+  "name": "mdsimpson/contact-form-7-to-database-extension",
+  "description": "Plugin that saves contact form submissions to your WordPress database and provides and administration page and shortcodes to view and display the data.",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Michael Simpson",
+      "email": "michael.d.simpson@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "keywords": ["wordpress", "plugin", "cfdb"],
+  "homepage": "https://cfdbplugin.com/",
+  "type": "wordpress-plugin",
+  "support": {
+    "issues": "https://github.com/mdsimpson/contact-form-7-to-database-extension/issues"
+  },
+  "require": {
+    "php": ">5.0"
+  },
+  "suggest": {
+    "composer/installers": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  }
+}
