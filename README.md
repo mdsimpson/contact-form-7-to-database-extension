@@ -1,5 +1,6 @@
 ![CFDB Banner](img/banner-772x250.jpg "CFDB")
 
+[![Build Status](https://travis-ci.org/mdsimpson/contact-form-7-to-database-extension.svg?branch=master)](https://travis-ci.org/mdsimpson/contact-form-7-to-database-extension)
 
 [Learn more at the CFDB documentation website](https://cfdbplugin.com)
 
