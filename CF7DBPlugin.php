@@ -53,6 +53,7 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
                 'IntegrateWithCF7' =>  array('<a target="_cf7" href="https://wordpress.org/plugins/contact-form-7/">Contact Form 7</a>', 'true', 'false'),
                 'IntegrateWithCF7SavePageTitle' => array('&#x21B3; ' . __('Save Page Title from Contact Form 7 submissions', 'contact-form-7-to-database-extension'), 'false', 'true'),
                 'IntegrateWithCF7SavePageUrl' => array(__('&#x21B3; ' . 'Save Page URL from Contact Form 7 submissions', 'contact-form-7-to-database-extension'), 'false', 'true'),
+                'IntegrateWithCF7SaveSubmittedPageUrl' => array(__('&#x21B3; ' . 'Save Submitted From Page URL from Contact Form 7 submissions', 'contact-form-7-to-database-extension'), 'false', 'true'),
                 'GenerateSubmitTimeInCF7Email' => array(__('&#x21B3; ' . 'Generate [submit_time] tag for Contact Form 7 email', 'contact-form-7-to-database-extension'), 'false', 'true'),
                 'IntegrateWithCalderaForms' => array('<a target="_caldera" href="https://wordpress.org/plugins/caldera-forms/">Caldera Forms</a>', 'true', 'false'),
                 'IntegrateWithCFormsII' => array('<a target="_cf2" href="https://wordpress.org/plugins/cforms2/">CformsII</a>', 'true', 'false'),

@@ -82,6 +82,9 @@ class CFDBIntegrationContactForm7 {
                 if ('true' == $this->plugin->getOption('IntegrateWithCF7SavePageUrl', 'false', true)) {
                     $data['posted_data']['Page URL'] = wpcf7_special_mail_tag('', '_post_url', '');
                 }
+                if ('true' == $this->plugin->getOption('IntegrateWithCF7SaveSubmittedPageUrl', 'false', true)) {
+                    $data['posted_data']['Submitted from Page URL'] = wpcf7_special_mail_tag('', '_url', '');
+                }
 
                 return (object) $data;
             }
