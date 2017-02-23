@@ -6,7 +6,7 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.2.1
 Tested up to: 4.7
-Stable tag: 2.10.29
+Stable tag: 2.10.32
 
 Saves submitted form data to the database. Export the data to a file or use shortcodes to display it.
 
@@ -88,6 +88,12 @@ You can always deactivate the plugin without loosing data.
 1. Admin Panel view of submitted form data
 
 == Changelog ==
+
+= 2.10.32 =
+* Improvement: Added option for CF7 forms to capture complete URL that form was posted from
+
+= 2.10.31 =
+* Improvement: Added support for GitHub updater. Install that plugin as well so that you can update CFDB directly from GitHub instead of from WP. https://github.com/afragen/github-updater
 
 = 2.10.30 =
 * Security: updates to protect against XSS attacks
