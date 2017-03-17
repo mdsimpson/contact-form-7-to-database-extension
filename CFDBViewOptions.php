@@ -94,7 +94,7 @@ class CFDBViewOptions extends CFDBView {
                     $this->outputSettings($filter, $plugin);
                     ?>
                     <p>
-                        <a target="_blank" href="http://cfdbplugin.com/?page_id=625" style="font-weight: bold"><?php _e('Notes on security settings', 'contact-form-7-to-database-extension'); ?></a>
+                        <a target="_blank" href="https://cfdbplugin.com/?page_id=625" style="font-weight: bold"><?php _e('Notes on security settings', 'contact-form-7-to-database-extension'); ?></a>
                     </p>
                 </div>
                 <div id="saving">

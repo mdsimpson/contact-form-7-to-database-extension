@@ -60,7 +60,7 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
                 'IntegrateWithEnfoldThemForms' => array('<a target="_enfld" href="http://themeforest.net/item/enfold-responsive-multipurpose-theme/4519990">Enfold Theme</a>', 'true', 'false'),
                 'IntegrateWithFSCF' => array('<a target="_fscf" href="https://wordpress.org/plugins/si-contact-form/">Fast Secure Contact Form</a>', 'true', 'false'),
                 'IntegrateWithFormCraft' => array('<a target="_fcrft" href="http://codecanyon.net/item/formcraft-premium-wordpress-form-builder/5335056">FormCraft Premium</a>', 'true', 'false'),
-                'IntegrateWithFormMaker' => array('<a target="_fmkr" href="https://wordpress.org/plugins/form-maker/">Form Maker</a><br>&#x21B3; Use shortcode: <a target="_doc" href="http://cfdbplugin.com/?page_id=1203">[cfdb-save-form-maker-post]</a>', 'true', 'false'),
+                'IntegrateWithFormMaker' => array('<a target="_fmkr" href="https://wordpress.org/plugins/form-maker/">Form Maker</a><br>&#x21B3; Use shortcode: <a target="_doc" href="https://cfdbplugin.com/?page_id=1203">[cfdb-save-form-maker-post]</a>', 'true', 'false'),
                 'IntegrateWithFMS' => array('<a target="_fms" href="http://codecanyon.net/item/forms-management-systemwordpress-frontend-plugin/8978741">Forms Management System</a>', 'true', 'false'),
                 'IntegrateWithFormidableForms' => array('<a target="_formidable" href="https://wordpress.org/plugins/formidable/">Formidable Forms</a>', 'true', 'false'),
                 'IntegrateWithGravityForms' => array('<a target="_gravityforms" href="http://www.gravityforms.com">Gravity Forms</a>', 'true', 'false'),
@@ -79,9 +79,9 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
                 'CanChangeSubmitData' => array(__('Can Edit/Delete Submission data', 'contact-form-7-to-database-extension'),
                         'Administrator', 'Editor', 'Author', 'Contributor', 'Subscriber', 'Anyone'),
                 'FunctionsInShortCodes' => array(__('Allow Any Function in Short Codes', 'contact-form-7-to-database-extension') .
-                        ' <a target="_blank" href="http://cfdbplugin.com/?page_id=1073">' . __('(Creates a security hole)', 'contact-form-7-to-database-extension') . '</a>', 'false', 'true'),
+                        ' <a target="_blank" href="https://cfdbplugin.com/?page_id=1073">' . __('(Creates a security hole)', 'contact-form-7-to-database-extension') . '</a>', 'false', 'true'),
                 'AllowRSS' => array(__('Allow RSS URLs', 'contact-form-7-to-database-extension') .
-                        ' <a target="_blank" href="http://cfdbplugin.com/?p=918">' . __('(Creates a security hole)', 'contact-form-7-to-database-extension') . '</a>', 'false', 'true'),
+                        ' <a target="_blank" href="https://cfdbplugin.com/?p=918">' . __('(Creates a security hole)', 'contact-form-7-to-database-extension') . '</a>', 'false', 'true'),
 
             // Saving
                 'Timezone' => array(__('Timezone to capture Submit Time. Blank will use WordPress Timezone setting. <a target="_blank" href="http://www.php.net/manual/en/timezones.php">Options</a>', 'contact-form-7-to-database-extension')),
@@ -1506,7 +1506,7 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
                     <?php echo esc_html(__('Plugin should be updated: ', 'contact-form-7-to-database-extension')); ?><strong><?php echo $editorPluginName ?></strong><br/>
                     <?php echo esc_html(__('Current version: ', 'contact-form-7-to-database-extension')); echo $editorData['Version']; ?><br/>
                     <?php echo esc_html(__('Minimum required version: ', 'contact-form-7-to-database-extension')); echo $requiredEditorVersion; ?><br/>
-                    <a target="_cfdbeditupgrade" href="http://cfdbplugin.com/?page_id=939"><?php echo esc_html(__('Download the latest version', 'contact-form-7-to-database-extension')); ?></a>
+                    <a target="_cfdbeditupgrade" href="https://cfdbplugin.com/?page_id=939"><?php echo esc_html(__('Download the latest version', 'contact-form-7-to-database-extension')); ?></a>
                 </div>
             <?php
             }

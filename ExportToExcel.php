@@ -131,7 +131,7 @@ class ExportToExcel extends ExportBase implements CFDBExport {
                     if ($type == Type::ODS) {
                         // But the Spout library doesn't support creating formulas.
                         // So people will have to convert them after the fact
-                        // http://cfdbplugin.com/?p=1430
+                        // https://cfdbplugin.com/?p=1430
                         $cell = "=HYPERLINK(\"$url\"; \"$cell\")";
                     } else {
                         // A code change I introduced in the included Spout library will make this become a formula

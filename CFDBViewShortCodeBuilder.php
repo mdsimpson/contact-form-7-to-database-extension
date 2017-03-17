@@ -180,7 +180,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
                     <option value="[cfdb-export-link]">[cfdb-export-link]</option>
                 </select>
                 <a id="doc_url_tag" target="_docs"
-                   href="http://cfdbplugin.com/?page_id=89"><?php echo esc_html(__('Documentation', 'contact-form-7-to-database-extension')); ?></a>
+                   href="https://cfdbplugin.com/?page_id=89"><?php echo esc_html(__('Documentation', 'contact-form-7-to-database-extension')); ?></a>
                 <br/>
             </div>
 
@@ -193,7 +193,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div id="shortcode_validations_text" class="validation"></div>
         <span style="font-size: x-small;">
             <a target="_docs"
-               href="http://cfdbplugin.com/?page_id=444"><?php echo esc_html(__('(Did you know: you can create your own short code)', 'contact-form-7-to-database-extension')); ?></a>
+               href="https://cfdbplugin.com/?page_id=444"><?php echo esc_html(__('(Did you know: you can create your own short code)', 'contact-form-7-to-database-extension')); ?></a>
         </span>
 
         </div>
@@ -319,7 +319,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="show_cntl"><?php echo esc_html(__('show', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=89#show"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=89#show"><img alt="?"
                                                                                          src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select name="add_show" id="add_show" class="button"></select>
@@ -330,7 +330,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="hide_cntl"><?php echo esc_html(__('hide', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=89#hide"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=89#hide"><img alt="?"
                                                                                          src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select name="add_hide" id="add_hide" class="button"></select>
@@ -351,7 +351,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="headers_cntl"><?php echo esc_html(__('headers', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=93#headers"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=93#headers"><img alt="?"
                                                                                             src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select name="add_headers" id="add_headers"></select>
@@ -376,7 +376,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="search_cntl"><?php echo esc_html(__('search', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=89#search"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=89#search"><img alt="?"
                                                                                            src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <input name="search_cntl" id="search_cntl" type="text" size="30"
@@ -385,7 +385,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="filter_cntl"><?php echo esc_html(__('filter', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=89#filter"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=89#filter"><img alt="?"
                                                                                            src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select name="filter_bool" id="filter_bool">
@@ -413,7 +413,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
                 <button id="btn_validate_submit_time"
                         class="button"><?php echo esc_html(__('Validate submit_time', 'contact-form-7-to-database-extension')); ?></button>
                 <a target="_blank"
-                   href="http://cfdbplugin.com/?page_id=553"><?php echo esc_html(__('Formats', 'contact-form-7-to-database-extension')); ?></a>
+                   href="https://cfdbplugin.com/?page_id=553"><?php echo esc_html(__('Formats', 'contact-form-7-to-database-extension')); ?></a>
             </span>
                 <br/>
                 <input name="filter_cntl" id="filter_cntl" type="text" size="100"
@@ -425,7 +425,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="limit_rows_cntl"><?php echo esc_html(__('limit', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=89#limit"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=89#limit"><img alt="?"
                                                                                           src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <?php echo esc_html(__('Num Rows', 'contact-form-7-to-database-extension')); ?> <input
@@ -438,7 +438,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="random_cntl"><?php echo esc_html(__('random', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=89#random"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=89#random"><img alt="?"
                                                                                            src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <input name="random_cntl" id="random_cntl" type="text" size="10"
@@ -447,7 +447,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div id="orderby_div">
                 <div class="label_box">
                     <label for="orderby_cntl"><?php echo esc_html(__('orderby', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=89#orderby"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=89#orderby"><img alt="?"
                                                                                             src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select name="add_orderby" id="add_orderby"></select>
@@ -472,7 +472,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="trans_cntl"><?php echo esc_html(__('trans', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=1118#trans"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=1118#trans"><img alt="?"
                                                                                             src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select name="add_trans" id="add_trans"></select>
@@ -486,7 +486,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="tsearch_cntl"><?php echo esc_html(__('tsearch', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=1118#tsearch"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=1118#tsearch"><img alt="?"
                                                                                               src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <input name="tsearch_cntl" id="tsearch_cntl" type="text" size="30"
@@ -495,7 +495,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="tfilter_cntl"><?php echo esc_html(__('tfilter', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=1118#tfilter"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=1118#tfilter"><img alt="?"
                                                                                               src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select name="tfilter_bool" id="tfilter_bool">
@@ -523,7 +523,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
                 <button id="btn_validate_submit_time"
                         class="button"><?php echo esc_html(__('Validate submit_time', 'contact-form-7-to-database-extension')); ?></button>
                 <a target="_blank"
-                   href="http://cfdbplugin.com/?page_id=553"><?php echo esc_html(__('Formats', 'contact-form-7-to-database-extension')); ?></a>
+                   href="https://cfdbplugin.com/?page_id=553"><?php echo esc_html(__('Formats', 'contact-form-7-to-database-extension')); ?></a>
             </span>
                 <br/>
                 <input name="tfilter_cntl" id="tfilter_cntl" type="text" size="100"
@@ -532,7 +532,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="tlimit_rows_cntl"><?php echo esc_html(__('tlimit', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=1118#tlimit"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=1118#tlimit"><img alt="?"
                                                                                              src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <?php echo esc_html(__('Num Rows', 'contact-form-7-to-database-extension')) ?> <input
@@ -545,7 +545,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div id="torderby_div">
                 <div class="label_box">
                     <label for="torderby_cntl"><?php echo esc_html(__('torderby', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=1118#torderby"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=1118#torderby"><img alt="?"
                                                                                                src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select name="add_torderby" id="add_torderby"></select>
@@ -569,7 +569,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="before_cntl"><?php echo esc_html(__('Before', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=284#before"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=284#before"><img alt="?"
                                                                                             src="<?php echo $this->infoImg ?>"/></a><br/>
                 </div>
                 <br/>
@@ -579,7 +579,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="after_cntl"><?php echo esc_html(__('After', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=284#after"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=284#after"><img alt="?"
                                                                                            src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <br/>
@@ -598,7 +598,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="id_cntl"><?php echo esc_html(__('id', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=93#id"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=93#id"><img alt="?"
                                                                                        src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <input name="id_cntl" id="id_cntl" type="text" size="10"
@@ -607,7 +607,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="class_cntl"><?php echo esc_html(__('class', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=93#class"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=93#class"><img alt="?"
                                                                                           src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <input name="class_cntl" id="class_cntl" type="text" size="10"
@@ -616,7 +616,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="style_cntl"><?php echo esc_html(__('style', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=93#style"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=93#style"><img alt="?"
                                                                                           src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <input name="style_cntl" id="style_cntl" type="text" size="100"
@@ -629,7 +629,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div id="edit_mode_div">
                 <div class="label_box">
                     <label for="edit_mode_cntl"><?php echo esc_html(__('edit', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=91#edit"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=91#edit"><img alt="?"
                                                                                          src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select id="edit_mode_cntl" name="edit_mode_cntl">
@@ -641,7 +641,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box" id="editcolumns">
                     <label for="editcolumns_cntl"><?php echo esc_html(__('editcolumns', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=91#editcolumns"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=91#editcolumns"><img alt="?"
                                                                                                 src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select name="add_editcolumns" id="add_editcolumns"></select>
@@ -653,7 +653,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="dt_options_cntl"><?php echo esc_html(__('dt_options', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=91#dt_options"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=91#dt_options"><img alt="?"
                                                                                                src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <input name="dt_options_cntl" id="dt_options_cntl" type="text" size="100"
@@ -666,7 +666,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="var_cntl"><?php echo esc_html(__('var', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=96#var"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=96#var"><img alt="?"
                                                                                         src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <input name="var_cntl" id="var_cntl" type="text" size="10"
@@ -675,7 +675,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="format_cntl"><?php echo esc_html(__('format', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=96#format"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=96#format"><img alt="?"
                                                                                            src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select id="format_cntl" name="format_cntl">
@@ -692,7 +692,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="function_cntl"><?php echo esc_html(__('function', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=98#function"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=98#function"><img alt="?"
                                                                                              src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select id="function_cntl" name="function_cntl">
@@ -707,7 +707,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="delimiter_cntl"><?php echo esc_html(__('delimiter', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=98#delimiter"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=98#delimiter"><img alt="?"
                                                                                               src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <input name="delimiter_cntl" id="delimiter_cntl" type="text" size="10"/>
@@ -719,7 +719,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="filelinks_cntl"><?php echo esc_html(__('filelinks', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=284#filelinks"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=284#filelinks"><img alt="?"
                                                                                                src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select id="filelinks_cntl" name="filelinks_cntl">
@@ -731,7 +731,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
                 </select>
                 <div class="label_box">
                     <label for="stripbr_cntl"><?php echo esc_html(__('stripbr', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=284#stripbr"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=284#stripbr"><img alt="?"
                                                                                              src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select id="stripbr_cntl" name="stripbr_cntl">
@@ -742,7 +742,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
                 <div class="label_box">
                     <label for="wpautop_cntl"
                            style="text-decoration:line-through;"><?php echo esc_html(__('wpautop', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=284#wpautop"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=284#wpautop"><img alt="?"
                                                                                              src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select id="wpautop_cntl" name="wpautop_cntl">
@@ -754,7 +754,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="content_cntl"><?php echo esc_html(__('Template', 'contact-form-7-to-database-extension')) ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=284#template"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=284#template"><img alt="?"
                                                                                               src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select name="add_content" id="add_content"></select>
@@ -770,7 +770,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="enc_cntl"><?php echo esc_html(__('enc', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=419"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=419"><img alt="?"
                                                                                      src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select id="enc_cntl" name="enc_cntl">
@@ -805,7 +805,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="urlonly_cntl"><?php echo esc_html(__('urlonly', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=419#urlonly"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=419#urlonly"><img alt="?"
                                                                                              src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select id="urlonly_cntl" name="urlonly_cntl">
@@ -817,7 +817,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="linktext_cntl"><?php echo esc_html(__('linktext', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=419#linktext"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=419#linktext"><img alt="?"
                                                                                               src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <input name="linktext_cntl" id="linktext_cntl" type="text" size="30"/>
@@ -833,7 +833,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="role_cntl"><?php echo esc_html(__('role', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=89#role"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=89#role"><img alt="?"
                                                                                          src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select id="role_cntl" name="role_cntl">
@@ -847,7 +847,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
                 </select>
                 <div class="label_box">
                     <label for="permissionmsg_cntl"><?php echo esc_html(__('permissionmsg', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?page_id=89#permissionmsg"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?page_id=89#permissionmsg"><img alt="?"
                                                                                                   src="<?php echo $this->infoImg ?>"/></a>
                 </div>
                 <select id="permissionmsg_cntl" name="permissionmsg_cntl">
@@ -867,7 +867,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
             <div>
                 <div class="label_box">
                     <label for="unbuffered_cntl"><?php echo esc_html(__('unbuffered', 'contact-form-7-to-database-extension')); ?></label>
-                    <a target="_docs" href="http://cfdbplugin.com/?p=696"><img alt="?"
+                    <a target="_docs" href="https://cfdbplugin.com/?p=696"><img alt="?"
                                                                                src="<?php echo $this->infoImg ?>"/></a>
                     <input id="unbuffered_cntl"
                            type="checkbox"/>
@@ -882,14 +882,14 @@ class CFDBViewShortCodeBuilder extends CFDBView {
         <script type="text/javascript" language="JavaScript">
 
             var shortCodeDocUrls = {
-                '': 'http://cfdbplugin.com/?page_id=89',
-                '[cfdb-html]': 'http://cfdbplugin.com/?page_id=284',
-                '[cfdb-table]': 'http://cfdbplugin.com/?page_id=93',
-                '[cfdb-datatable]': 'http://cfdbplugin.com/?page_id=91',
-                '[cfdb-value]': 'http://cfdbplugin.com/?page_id=98',
-                '[cfdb-count]': 'http://cfdbplugin.com/?page_id=278',
-                '[cfdb-json]': 'http://cfdbplugin.com/?page_id=96',
-                '[cfdb-export-link]': 'http://cfdbplugin.com/?page_id=419'
+                '': 'https://cfdbplugin.com/?page_id=89',
+                '[cfdb-html]': 'https://cfdbplugin.com/?page_id=284',
+                '[cfdb-table]': 'https://cfdbplugin.com/?page_id=93',
+                '[cfdb-datatable]': 'https://cfdbplugin.com/?page_id=91',
+                '[cfdb-value]': 'https://cfdbplugin.com/?page_id=98',
+                '[cfdb-count]': 'https://cfdbplugin.com/?page_id=278',
+                '[cfdb-json]': 'https://cfdbplugin.com/?page_id=96',
+                '[cfdb-export-link]': 'https://cfdbplugin.com/?page_id=419'
             };
 
             function showHideOptionDivs() {

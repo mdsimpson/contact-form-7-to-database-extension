@@ -54,7 +54,7 @@ class CFDBIntegrationFSCF {
                 __('Database Options', 'contact-form-7-to-database-extension') .
                 '</a>  | <a href="admin.php?page=' . $this->plugin->getShortCodeBuilderPageSlug() . '">' .
                 __('Build Shortcode', 'contact-form-7-to-database-extension') .
-                '</a> | <a href="http://cfdbplugin.com/">' .
+                '</a> | <a href="https://cfdbplugin.com/">' .
                 __('Reference', 'contact-form-7-to-database-extension') . '</a>
        </p>
       ';

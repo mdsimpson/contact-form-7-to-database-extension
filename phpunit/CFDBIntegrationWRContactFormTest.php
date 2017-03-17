@@ -37,7 +37,7 @@ class CFDBIntegrationWRContactFormTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals('Choice 1', $data->posted_data['My Radio Buttons']);
         $this->assertEquals('Value 3', $data->posted_data['My List']);
         $this->assertEquals('info@cfdbplugin.com', $data->posted_data['My Email']);
-        $this->assertEquals('http://cfdbplugin.com', $data->posted_data['Website']);
+        $this->assertEquals('https://cfdbplugin.com', $data->posted_data['Website']);
         $this->assertEquals('1234567890', $data->posted_data['Phone']);
         $this->assertEquals('Value 3', $data->posted_data['Dropdown']);
         $this->assertEquals('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum odio sed ipsum fringilla ut tempor magna accumsan. Aliquam erat volutpat. Vestibulum euismod ipsum non risus dignissim hendrerit. Nam metus arcu, blandit in cursus nec, placerat vitae arcu. Maecenas ornare porta mi, et tincidunt nulla luctus non.”', $data->posted_data['Text']);

@@ -283,7 +283,7 @@ class CFDBViewWhatsInDB extends CFDBView {
         <tr>
             <td align="left" colspan="3">
                 <span id="edit_controls">
-                    <a href="http://cfdbplugin.com/?page_id=459" target="_cfdbedit"><?php  echo esc_html(__('Edit Data Mode', 'contact-form-7-to-database-extension')); ?></a>
+                    <a href="https://cfdbplugin.com/?page_id=459" target="_cfdbedit"><?php  echo esc_html(__('Edit Data Mode', 'contact-form-7-to-database-extension')); ?></a>
                 </span>
             </td>
         </tr>
@@ -397,12 +397,12 @@ class CFDBViewWhatsInDB extends CFDBView {
                     <span style="font-size:x-small; font-style: italic;">
                     <?php echo esc_html(__('Did you know: You can add this data to your posts and pages using these shortcodes:', 'contact-form-7-to-database-extension')); ?>
                         <br/>
-                        <a target="_faq" href="http://cfdbplugin.com/?page_id=284">[cfdb-html]</a>
-                        <a target="_faq" href="http://cfdbplugin.com/?page_id=91">[cfdb-datatable]</a>
-                        <a target="_faq" href="http://cfdbplugin.com/?page_id=93">[cfdb-table]</a>
-                        <a target="_faq" href="http://cfdbplugin.com/?page_id=98">[cfdb-value]</a>
-                        <a target="_faq" href="http://cfdbplugin.com/?page_id=278">[cfdb-count]</a>
-                        <a target="_faq" href="http://cfdbplugin.com/?page_id=96">[cfdb-json]</a>
+                        <a target="_faq" href="https://cfdbplugin.com/?page_id=284">[cfdb-html]</a>
+                        <a target="_faq" href="https://cfdbplugin.com/?page_id=91">[cfdb-datatable]</a>
+                        <a target="_faq" href="https://cfdbplugin.com/?page_id=93">[cfdb-table]</a>
+                        <a target="_faq" href="https://cfdbplugin.com/?page_id=98">[cfdb-value]</a>
+                        <a target="_faq" href="https://cfdbplugin.com/?page_id=278">[cfdb-count]</a>
+                        <a target="_faq" href="https://cfdbplugin.com/?page_id=96">[cfdb-json]</a>
                     </span>
                 </td>
             </tr>
@@ -411,7 +411,7 @@ class CFDBViewWhatsInDB extends CFDBView {
                         <span style="font-size:x-small; font-style: italic;">
                             <?php echo esc_html(__('Would you like to help translate this plugin into your language?', 'contact-form-7-to-database-extension')); ?>
                             <a target="_i18n"
-                               href="http://cfdbplugin.com/?page_id=7"><?php echo esc_html(__('How to create a translation', 'contact-form-7-to-database-extension')); ?></a>
+                               href="https://cfdbplugin.com/?page_id=7"><?php echo esc_html(__('How to create a translation', 'contact-form-7-to-database-extension')); ?></a>
                         </span>
                 </td>
             </tr>
