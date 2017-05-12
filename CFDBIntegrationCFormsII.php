@@ -64,27 +64,35 @@ class CFDBIntegrationCFormsII {
         //$this->plugin->getErrorLog()->log(print_r($trackf, true) . "\n\n"); // debug
 
         $form_data = array();
+        $uploaded_files = array();
+        $upload_in = array();
+        if (is_array($trackf['uploaded_files'])) {
+            $upload_in = $trackf['uploaded_files'];
+        }
         foreach ($trackf['data'] as $key => $value) {
             if (strpos($key, '$$$') !== 0) {
-                $form_data[$key] = $value;
+
+                $upl_marker_pos = strpos($key, '[*');
+                if ($upl_marker_pos === false) {
+                    $form_data[$key] = $value;
+
+                } else foreach ($upload_in as $file) {
+                    if (substr($file['name'], -strlen($value)) === $value) {
+                        $key = substr($key, 0, $upl_marker_pos);
+                        $uploaded_files[$key] = $file['name'];
+                        break;
+                    }
+                }
             }
         }
-
-        $uploaded_files = array();
-        // TODO
-//        if (is_array($trackf['uploaded_files'])) {
-//            foreach ($trackf['uploaded_files'] as $file) {
-//                $key = 'file'; // todo $key
-//                $posted_data[$key] = $file['name'];
-//                $uploaded_files[$key] = $file['tmp_name'];
-//            }
-//        }
 
 
         $cfdb_data = (object)array(
                 'title' => $trackf['title'],
+                'submit_time' => $trackf['submit_time'],
                 'posted_data' => $form_data,
                 'uploaded_files' => $uploaded_files);
+        // TODO if existing add $trackf['ip'] as submitter's IP address
 
         do_action_ref_array('cfdb_submit', array(&$cfdb_data));
 
