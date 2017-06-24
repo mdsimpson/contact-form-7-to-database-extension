@@ -92,7 +92,6 @@ class CFDBIntegrationCFormsII {
                 'submit_time' => $trackf['submit_time'],
                 'posted_data' => $form_data,
                 'uploaded_files' => $uploaded_files);
-        // TODO if existing add $trackf['ip'] as submitter's IP address
 
         do_action_ref_array('cfdb_submit', array(&$cfdb_data));
 
