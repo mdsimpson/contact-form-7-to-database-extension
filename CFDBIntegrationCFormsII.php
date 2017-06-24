@@ -70,7 +70,10 @@ class CFDBIntegrationCFormsII {
             $upload_in = $trackf['uploaded_files'];
         }
         foreach ($trackf['data'] as $key => $value) {
-            if (strpos($key, '$$$') !== 0) {
+            if (strpos($key, '$$$') === false) {
+
+                // filter multi-step forms' prefix
+                $key = preg_replace('/^cf_form[0-9]*_/', '', $key, 1);
 
                 $upl_marker_pos = strpos($key, '[*');
                 if ($upl_marker_pos === false) {
