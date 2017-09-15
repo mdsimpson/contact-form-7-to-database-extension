@@ -89,10 +89,10 @@ class CFDBIntegrationCFormsII {
             }
         }
 
+        $form_data['submit_time'] = $trackf['submit_time'];
 
         $cfdb_data = (object)array(
                 'title' => $trackf['title'],
-                'submit_time' => $trackf['submit_time'],
                 'posted_data' => $form_data,
                 'uploaded_files' => $uploaded_files);
 
