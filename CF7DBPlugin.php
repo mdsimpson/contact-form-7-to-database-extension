@@ -1023,6 +1023,7 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
             $pluginUrl = $this->getPluginFileUrl() . '/';
             wp_enqueue_script('jquery');
             wp_enqueue_script('jquery-ui-core');
+            wp_enqueue_script('jquery-ui-dialog', array('jquery-ui-core'));
             wp_enqueue_style('jquery-ui.css', $pluginUrl . 'jquery-ui/jquery-ui-1.8.21.custom.css');
 
             // Datatables http://www.datatables.net
@@ -1046,7 +1047,8 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
             $pluginUrl = $this->getPluginFileUrl() . '/';
             wp_enqueue_script('jquery');
             wp_enqueue_script('jquery-ui-core', array('jquery'));
-            wp_enqueue_script('jquery-ui-tabs', array('jquery'));
+            wp_enqueue_script('jquery-ui-dialog', array('jquery-ui-core'));
+            wp_enqueue_script('jquery-ui-tabs', array('jquery-ui-core'));
             wp_enqueue_script('CF7DBdes', $pluginUrl . 'des.js');
             $pluginUrl = $this->getPluginFileUrl() . '/';
             wp_enqueue_script('CF7DBdes', $pluginUrl . 'des.js');
