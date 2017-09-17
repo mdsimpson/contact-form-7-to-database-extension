@@ -142,7 +142,7 @@ class CFDBFilterParser extends CFDBParserBase implements CFDBEvaluator {
         // Sometimes get HTML codes for greater-than and less-than; replace them with actual symbols
         $comparisonExpression = str_replace('&gt;', '>', $comparisonExpression);
         $comparisonExpression = str_replace('&lt;', '<', $comparisonExpression);
-        return preg_split('/(===)|(==)|(=)|(!==)|(!=)|(<>)|(<=)|(<)|(>=)|(>)|(~~)|(\[in\])|(\[!in\])/',
+        return preg_split('/(===)|(==)|(=)|(!==)|(!=)|(<>)|(<=)|(<)|(>=)|(>)|(~~)|(\[like\])|(\[in\])|(\[!in\])/',
                 $comparisonExpression, -1, PREG_SPLIT_NO_EMPTY | PREG_SPLIT_DELIM_CAPTURE);
     }
 
@@ -288,6 +288,16 @@ class CFDBFilterParser extends CFDBParserBase implements CFDBEvaluator {
 
             case '<=':
                 $retVal = $left <= $right;
+                break;
+
+            case '[like]':
+                $left = str_replace(' ', '', $left);
+                $pos = strpos($left, ',');
+                if ($pos === false) {
+                    $retVal = $left == $right;
+                } else {
+                    $retVal = in_array($right, explode(',', $left));
+                }
                 break;
 
             case '~~':

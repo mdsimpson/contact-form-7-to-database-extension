@@ -402,6 +402,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
                     <option value="<="><=</option>
                     <option value="===">===</option>
                     <option value="!==">!==</option>
+                    <option value="[like]">[like]</option>
                     <option value="~~">~~</option>
                     <option value="[in]">[in]</option>
                     <option value="[!in]">[!in]</option>
