@@ -1024,7 +1024,7 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
             wp_enqueue_script('jquery');
             wp_enqueue_script('jquery-ui-core');
             wp_enqueue_script('jquery-ui-dialog', array('jquery-ui-core'));
-            wp_enqueue_style('jquery-ui.css', $pluginUrl . 'jquery-ui/jquery-ui-1.8.21.custom.css');
+            wp_enqueue_style('jquery-ui.css', $pluginUrl . 'jquery-ui/jquery-ui-1.11.4.custom.min.css');
 
             // Datatables http://www.datatables.net
             if ($this->getOption('UseDataTablesJS', 'true', true) == 'true') {
