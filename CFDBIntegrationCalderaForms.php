@@ -60,7 +60,7 @@ class CFDBIntegrationCalderaForms {
 //            $this->plugin->getErrorLog()->log('$process_id: ' . print_r($process_id, true));
 //            $this->plugin->getErrorLog()->log('$entry_id: ' . print_r($entry_id, true));
 
-            $data = $this->convertData($form, $entry_id);
+            $data = $this->convertData($form);
             return $this->plugin->saveFormData($data);
         } catch (Exception $ex) {
             $this->plugin->getErrorLog()->logException($ex);
@@ -70,10 +70,9 @@ class CFDBIntegrationCalderaForms {
 
     /**
      * @param $form array
-     * @param int $entry_id
      * @return null|object
      */
-    public function convertData($form, $entry_id) {
+    public function convertData($form) {
 
         if (is_array($form)) {
             $title = $form['name'];
@@ -84,9 +83,10 @@ class CFDBIntegrationCalderaForms {
 
             foreach ($fields as $field_id => $field) {
 
-                $field_value = Caldera_Forms::get_field_data($field_id, $form, $entry_id);
-//                $this->plugin->getErrorLog()->log("$field_id=" . print_r($field_value, true));  // debug
-//                $this->plugin->getErrorLog()->log("$field_id=" . print_r($field, true));  // debug
+                $field_value = Caldera_Forms::get_field_data($field_id, $form);
+//                $this->plugin->getErrorLog()->log('$field=' . print_r($field, true));  // debug
+//                $this->plugin->getErrorLog()->log('$field_id=' . print_r($field_id, true));  // debug
+//                $this->plugin->getErrorLog()->log('$field_value=' . print_r($field_value, true));  // debug
                 if (!array_key_exists($field_id, $form['fields'])) {
                     // ignore non-field entries _entry_id and _entry_token
                     continue;
