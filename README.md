@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/mdsimpson/contact-form-7-to-database-extension.svg?branch=master)](https://travis-ci.org/mdsimpson/contact-form-7-to-database-extension)
 
+### [Download the latest Install](https://github.com/mdsimpson/contact-form-7-to-database-extension/releases)
+### [Download GitHub Updater to get updates](https://github.com/afragen/github-updater/releases)
+
 [Learn more at the CFDB documentation website](https://cfdbplugin.com)
 
 The "CFDB" plugin saves contact form submissions to your WordPress database and provides and administration page and shortcodes to view and display the data.
