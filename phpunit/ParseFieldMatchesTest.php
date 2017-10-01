@@ -64,7 +64,7 @@ class ParseFieldMatchesTest extends PHPUnit_Framework_TestCase {
      * @param $option string
      * @param $expected array
      */
-    public function test_export($option, $expected) {
+    public function test_export_ParseFieldMatchesTest($option, $expected) {
         $cfdb = new CF7DBPlugin();
         $actual = $cfdb->parseOption($option);
         $this->assertEquals($expected, $actual);

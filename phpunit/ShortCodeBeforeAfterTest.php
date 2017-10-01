@@ -220,7 +220,7 @@ class ShortCodeBeforeAfterTest extends SquashOutputUnitTest {
      * @param $options array export code options
      * @param $expected string expected export output
      */
-    public function test_export($message, $content, $exp, $options, $expected) {
+    public function test_export_ShortCodeBeforeAfterTest($message, $content, $exp, $options, $expected) {
         $data = array(
                 array('first-name' => 'John', 'last-name' => 'Doe'),
                 array('first-name' => 'Richard', 'last-name' => 'Roe')
