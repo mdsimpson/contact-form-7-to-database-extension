@@ -1140,6 +1140,7 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
             $exp = new ExportEntry();
             if (isset($_REQUEST['form_name']) && !empty($_REQUEST['form_name'])) {
                 $form = stripslashes($_REQUEST['form_name']);
+                $form =  preg_replace('/[^[:alnum:][:space:]]/u', '',$form);
             } else {
                 global $wpdb;
                 $table = $this->getSubmitsTableName();

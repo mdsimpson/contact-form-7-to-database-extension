@@ -77,13 +77,13 @@ class CFDBIntegrationContactForm7 {
                 $data['WPCF7_ContactForm'] = $cf7;
 
                 if ('true' == $this->plugin->getOption('IntegrateWithCF7SavePageTitle', 'false', true)) {
-                    $data['posted_data']['Page Title'] = wpcf7_special_mail_tag('', '_post_title', '');
+                    $data['posted_data']['Page Title'] = wpcf7_post_related_smt('', '_post_title', '');
                 }
                 if ('true' == $this->plugin->getOption('IntegrateWithCF7SavePageUrl', 'false', true)) {
-                    $data['posted_data']['Page URL'] = wpcf7_special_mail_tag('', '_post_url', '');
+                    $data['posted_data']['Page URL'] = wpcf7_post_related_smt('', '_post_url', '');
                 }
                 if ('true' == $this->plugin->getOption('IntegrateWithCF7SaveSubmittedPageUrl', 'false', true)) {
-                    $data['posted_data']['Submitted from Page URL'] = wpcf7_special_mail_tag('', '_url', '');
+                    $data['posted_data']['Submitted Page URL'] = wpcf7_special_mail_tag('', '_url', '');
                 }
 
                 return (object) $data;
