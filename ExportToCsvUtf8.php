@@ -80,10 +80,10 @@ class ExportToCsvUtf8 extends ExportBase implements CFDBExport {
             }
         }
 
-        $this->echoCsv($formName);
+        $this->echoCsv($formName, $options);
     }
 
-    public function echoCsv($formName) {
+    public function echoCsv($formName, $options = null) {
 
         $eol = "\n";
         $delimiter = ',';
