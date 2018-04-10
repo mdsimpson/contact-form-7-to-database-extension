@@ -87,8 +87,8 @@ class ExportToValue extends ExportBase implements CFDBExport {
         //$this->clearAllOutputBuffers();
 
         // count function or coming from cfdb-count shortcode
-        if (count($this->showColumns) == 0 &&
-            count($this->hideColumns) == 0) {
+        if (empty($this->showColumns) &&
+            empty($this->hideColumns)) {
             if ($funct == 'count') {
                 $count = 0;
                 while ($this->dataIterator->nextRow()) {
