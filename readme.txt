@@ -6,7 +6,7 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.2.1
 Tested up to: 4.8.2
-Stable tag: 2.10.35
+Stable tag: 2.10.36
 
 Saves submitted form data to the database. Export the data to a file or use shortcodes to display it.
 
