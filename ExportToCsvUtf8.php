@@ -132,6 +132,7 @@ class ExportToCsvUtf8 extends ExportBase implements CFDBExport {
                 if ($this->useShiftJIS) {
                     $colDisplayValue = $this->shiftJis->convertUtf8ToSjis($colDisplayValue);
                 }
+                $colDisplayValue = $this->escapeFunctionCall($colDisplayValue);
                 printf('"%s"', str_replace('"', '""', $colDisplayValue));
                 echo $delimiter;
             }
@@ -155,6 +156,7 @@ class ExportToCsvUtf8 extends ExportBase implements CFDBExport {
                         in_array($aCol, $fields_with_file)) {
                     $cell = $this->plugin->getFileUrl($this->dataIterator->row[$submitTimeKeyName], $formName, $aCol);
                 }
+                $cell = $this->escapeFunctionCall($cell);
                 if ($this->useShiftJIS) {
                     $cell = $this->shiftJis->convertUtf8ToSjis($cell);
                 }
@@ -163,6 +165,19 @@ class ExportToCsvUtf8 extends ExportBase implements CFDBExport {
             }
             echo $eol;
         }
+    }
+
+    /**
+     * To avoid CSV injection of functions, add a single quote at the beginning
+     * of any value that begins with an = per Excel convention
+     * @param $value
+     * @return string
+     */
+    public function escapeFunctionCall($value) {
+        if (strpos($value, '=') === 0) {
+            $value = "'" . $value;
+        }
+        return $value;
     }
 
 

@@ -101,6 +101,9 @@ class ExportToCsvUtf16le extends ExportBase implements CFDBExport {
         // In CSV, escape double-quotes by putting two double quotes together
         $text = str_replace('"', '""', $text);
 
+        // Escape function calls
+        $text = $this->escapeFunctionCall($text);
+
         // Quote it to escape delimiters
         $text = '"' . $text . '"';
 
@@ -121,6 +124,19 @@ class ExportToCsvUtf16le extends ExportBase implements CFDBExport {
             $hex .= '%' . sprintf("%02X", base_convert($chr, 2, 16));
         }
         return $hex;
+    }
+
+    /**
+     * To avoid CSV injection of functions, add a single quote at the beginning
+     * of any value that begins with an = per Excel convention
+     * @param $value
+     * @return string
+     */
+    public function escapeFunctionCall($value) {
+        if (strpos($value, '=') === 0) {
+            $value = "'" . $value;
+        }
+        return $value;
     }
 
 }
