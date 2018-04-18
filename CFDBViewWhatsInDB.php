@@ -64,7 +64,7 @@ class CFDBViewWhatsInDB extends CFDBView {
         if ($currSelection) {
             $currSelection = stripslashes($currSelection);
             $currSelection = htmlspecialchars_decode($currSelection, ENT_QUOTES);
-            $currSelection =  preg_replace('/[^[:alnum:][:space:]]/u', '',$currSelection);
+            $currSelection = strip_tags($currSelection); // guard against xss
         }
 
         // Sanitized version of $currSelection for display on the page
