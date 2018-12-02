@@ -82,12 +82,18 @@ class CFDBViewShortCodeBuilder extends CFDBView {
                     <li>
                         <a href="#tab_export"><?php _e('Export', 'contact-form-7-to-database-extension'); ?></a>
                     </li>
+                    <li>
+                        <a href="#tab_import"><?php _e('Import', 'contact-form-7-to-database-extension'); ?></a>
+                    </li>
                 </ul>
                 <div id="tab_shortcode">
                     <?php $this->displayShortCodeControl(); ?>
                 </div>
                 <div id="tab_export">
                     <?php $this->displayExportControl(); ?>
+                </div>
+                <div id="tab_import">
+                    <?php $this->displayImportControl(); ?>
                 </div>
             </div>
         </div>
@@ -288,6 +294,24 @@ class CFDBViewShortCodeBuilder extends CFDBView {
         <?php
     }
 
+    public function displayImportControl() {
+        ?>
+        <form id="import_form" enctype="multipart/form-data" method="post" action="#">
+        <div>
+            <label for="import_cntl"><?php echo esc_html(__('Import File', 'contact-form-7-to-database-extension')); ?></label>
+            <input type="file" id="import_cntl" name="import_cntl" />
+        </div>
+        <div>
+            <label for="import_cntl"><?php echo esc_html(__('Form Name', 'contact-form-7-to-database-extension')); ?></label>
+            <input type="text" id="import_form_name" name="import_form_name" value="" />
+        </div>
+        <div>
+            <input type="submit" name="import_submit" value="<?php echo esc_html(__('Upload File', 'contact-form-7-to-database-extension')); ?>" />
+        </div>
+        </form>
+        <?php
+    }
+
     public function displayFormControl() {
         // Identify which forms have data in the database
         global $wpdb;
@@ -296,7 +320,7 @@ class CFDBViewShortCodeBuilder extends CFDBView {
 
         ?>
         <div class="shortcodeoptions">
-            <select name="form_name_cntl" id="form_name_cntl" multiple size="20">
+            <select name="form_name_cntl" id="form_name_cntl" multiple size="20" onchange="updateImportForm()">
                 <?php
                 foreach ($rows as $aRow) {
                     $formName = $aRow->form_name;
@@ -1103,6 +1127,11 @@ class CFDBViewShortCodeBuilder extends CFDBView {
                 return pre.innerHTML;
             }
 
+            function updateImportForm() {
+                var formName = jQuery('#form_name_cntl').val();
+                jQuery('#import_form_name').val(formName);
+
+            }
 
             function createShortCodeAndExportLink() {
                 var scElements = [];
