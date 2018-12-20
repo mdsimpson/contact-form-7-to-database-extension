@@ -1556,4 +1556,45 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
         return $maybeIp;
     }
 
+    public function parseCsv($file, $formName, $fieldNames = array())
+    {
+        $data = array_map('str_getcsv', file($file));
+        array_walk($data, function(&$a) use ($data) {
+            $a = array_combine($data[0], $a);
+        });
+        array_shift($data);
+        $reservedFields = array('Submitted');
+        $dataBaseRows = array();
+        foreach ($data as $row) {
+            if (empty($fieldNames)) {
+                $keys = array_keys($row);
+                foreach ($keys as $key) {
+                    if (!in_array($key, $reservedFields)) {
+                        $fieldNames[] = $key;
+                    }
+                }
+            }
+            foreach ($fieldNames as $id => $fieldName) {
+                $dataBaseRows[] = array(
+                    'submit_time' => strtotime($row[ 'Submitted' ]),
+                    'form_name'   => $formName,
+                    'field_name'  => $fieldName,
+                    'field_value' => $row[ $fieldName ],
+                    'field_order' => $id,
+                    'file'        => null
+                );
+            }
+        }
+
+        return $dataBaseRows;
+    }
+
+    public function saveDbRows($dataBaseRows)
+    {
+        global $wpdb;
+        foreach ($dataBaseRows as $dataBaseRow) {
+            $wpdb->insert($this->getSubmitsTableName(), $dataBaseRow);
+        }
+    }
+
 }
