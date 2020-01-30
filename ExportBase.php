@@ -603,6 +603,9 @@ class ExportBase {
             $sql .= 'SELECT count(*) as count FROM (';
         }
         $sql .= "SELECT `submit_time` AS 'Submitted'";
+	    if ($formName == '*' && $this->plugin->getOption('AddFormNameToAllFormsExport') == 'true') {
+		    $sql .= ",\n max(`form_name`) AS 'Form Name'";
+	    }
         foreach ($fields as $aCol) {
             // Escape single quotes in column name
             $aCol = $this->escapeString($aCol);

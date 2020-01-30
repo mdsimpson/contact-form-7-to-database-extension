@@ -1,12 +1,12 @@
 === Contact Form DB ===
-Contributors: msimpson
+Contributors: msimpson, mattras82
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=NEVDJ792HKGFN&lc=US&item_name=Wordpress%20Plugin&item_number=cf7%2dto%2ddb%2dextension&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: contact form,database,contact form database,save contact form,form database,CFDB
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.2.1
 Tested up to: 5.0.2
-Stable tag: 2.10.36
+Stable tag: 2.10.37
 
 Saves submitted form data to the database. Export the data to a file or use shortcodes to display it.
 
@@ -88,6 +88,9 @@ You can always deactivate the plugin without loosing data.
 1. Admin Panel view of submitted form data
 
 == Changelog ==
+
+= 2.10.37 =
+* Improvement: Added option to add Form Name column to All Forms export
 
 = 2.10.32 =
 * Improvement: Added option for CF7 forms to capture complete URL that form was posted from
