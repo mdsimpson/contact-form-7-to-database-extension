@@ -846,7 +846,7 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
                     continue; // Don't save in DB
                 }
 
-                $value = is_array($value) ? implode($value, ', ') : $value;
+                $value = is_array($value) ? implode( ', ',$value) : $value;
                 $valueClean = stripslashes($value);
 
                 // Check if this is a file upload field
