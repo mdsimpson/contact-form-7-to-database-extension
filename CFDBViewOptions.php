@@ -111,7 +111,7 @@ class CFDBViewOptions extends CFDBView {
                     <?php
                     $filter = function ($name) {
                         return in_array($name, array(
-                                'SubmitDateTimeFormat', 'UseCustomDateTimeFormat', 'ShowFileUrlsInExport'));
+	                        'SubmitDateTimeFormat', 'UseCustomDateTimeFormat', 'ShowFileUrlsInExport', 'AddFormNameToAllFormsExport'));
                     };
                     $this->outputSettings($filter, $plugin);
                     ?>
