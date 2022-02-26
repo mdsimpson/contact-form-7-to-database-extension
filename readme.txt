@@ -89,6 +89,10 @@ You can always deactivate the plugin without loosing data.
 
 == Changelog ==
 
+= 2.10.37 =
+* Bug Fix: "[PHP 8.0] implode(): Argument #2 ($array) must be of type ?array, string given #94" - https://github.com/mdsimpson/contact-form-7-to-database-extension/pull/96
+* Bug Fix: Fix PHP Notice with ob_end_clean() call - https://github.com/mdsimpson/contact-form-7-to-database-extension/pull/84
+
 = 2.10.32 =
 * Improvement: Added option for CF7 forms to capture complete URL that form was posted from
 
