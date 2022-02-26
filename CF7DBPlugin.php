@@ -626,7 +626,7 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
         if (ob_get_level()) {
             ob_end_clean(); // Fix bug where download files can be corrupted
         }
-        ob_end_clean(); // Not sure why have to do this on some sites
+        if (ob_get_length() > 0) { ob_end_clean(); } // Not sure why have to do this on some sites
         if ($mimeType) {
             header('Content-Type: ' . $mimeType);
             header("Content-Disposition: inline; filename=\"$fileInfo[0]\"");
