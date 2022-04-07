@@ -53,6 +53,13 @@ function CF7DBPlugin_i18n_init() {
     load_plugin_textdomain('contact-form-7-to-database-extension', false, $pluginDir . '/languages/');
 }
 
+/**
+ * Add new test function to test gitHub
+ */
+function CF7DBPlugin_test_pls{} {
+   echo "Test gitHub!";
+}
+
 
 //////////////////////////////////
 // Run initialization
