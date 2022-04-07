@@ -68,3 +68,5 @@ if (CF7DBPlugin_PhpVersionCheck()) {
     include_once('CF7DBPlugin_init.php');
     CF7DBPlugin_init(__FILE__);
 }
+
+require_once 'contact-form-7-db-import.php';
