@@ -83,6 +83,7 @@ class ExportToExcel extends ExportBase implements CFDBExport {
             }
         }
         $writer = WriterFactory::create($type);
+        $writer->setTempFolder(get_temp_dir());
         $writer->openToBrowser("$formName.$suffix"); // stream data directly to the browser
 
         // Column Headers
